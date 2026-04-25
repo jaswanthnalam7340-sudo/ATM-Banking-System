@@ -79,6 +79,7 @@ public class Atm {
 				return;
 			}
 			if (typeof == 4) {
+				scanner.close();
 				break;
 			}
 			atm.process(type, typeof, amount);

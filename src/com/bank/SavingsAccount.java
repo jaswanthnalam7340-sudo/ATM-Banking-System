@@ -44,9 +44,7 @@ public class SavingsAccount extends BaseAccount {
 		return interest;
 	}
 
-	@Override
 	public List<Transaction> getTransactionHistory() {
-		// TODO Auto-generated method stub
 		return super.getTransactionHistory();
 	}
 }
